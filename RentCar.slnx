@@ -1,0 +1,23 @@
+<Solution>
+    <Configurations>
+        <Platform Name="Any CPU" />
+    </Configurations>
+    <Folder Name="/src/">
+        <Project Path="src/RentCar.Domain/RentCar.Domain.csproj" />
+        <Project Path="src/RentCar.Application/RentCar.Application.csproj" />
+        <Project Path="src/RentCar.EntityFrameworkCore/RentCar.EntityFrameworkCore.csproj" />
+        <Project Path="src/RentCar.Domain.Shared/RentCar.Domain.Shared.csproj" />
+        <Project Path="src/RentCar.Application.Contracts/RentCar.Application.Contracts.csproj" />
+        <Project Path="src/RentCar.HttpApi/RentCar.HttpApi.csproj" />
+        <Project Path="src/RentCar.HttpApi.Client/RentCar.HttpApi.Client.csproj" />
+        <Project Path="src/RentCar.HttpApi.Host/RentCar.HttpApi.Host.csproj" />
+        <Project Path="src/RentCar.DbMigrator/RentCar.DbMigrator.csproj" />
+    </Folder>
+    <Folder Name="/test/">
+        <Project Path="test/RentCar.Application.Tests/RentCar.Application.Tests.csproj" />
+        <Project Path="test/RentCar.EntityFrameworkCore.Tests/RentCar.EntityFrameworkCore.Tests.csproj" />
+        <Project Path="test/RentCar.TestBase/RentCar.TestBase.csproj" />
+        <Project Path="test/RentCar.Domain.Tests/RentCar.Domain.Tests.csproj" />
+        <Project Path="test/RentCar.HttpApi.Client.ConsoleTestApp/RentCar.HttpApi.Client.ConsoleTestApp.csproj" />
+    </Folder>
+</Solution>

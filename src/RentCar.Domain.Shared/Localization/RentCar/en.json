@@ -1,0 +1,30 @@
+{
+  "Culture": "en",
+  "Texts": {
+    "AppName": "RentCar",
+    "Menu:Home": "Home",
+    "LongWelcomeMessage": "Welcome to the application. This is a startup project based on the ABP framework. For more information visit",
+    "Welcome": "Welcome",
+    "Permission:RentCar": "Rent Car",
+"Permission:Vehicles": "Vehicle Management",
+"Permission:Vehicles.Create": "Create vehicle",
+"Permission:Vehicles.Edit": "Edit vehicle",
+"Permission:Vehicles.Delete": "Delete vehicle",
+"RentCar:00001": "Vehicle '{Brand} {Model}' is not available for rent.",
+"RentCar:00002": "Vehicle '{Brand} {Model}' is not currently rented.",
+"RentCar:00003": "Vehicle '{Brand} {Model}' is currently rented.",
+"RentCar:00004": "End mileage ({EndMileage}) cannot be lower than the current mileage ({CurrentMileage}).",
+"RentCar:00005": "Vehicle '{Brand} {Model}' is not in maintenance.",
+"Permission:Rentals": "Rental Management",
+"Permission:Rentals.Manage": "Manage all rentals",
+"RentCar:00006": "You must save your driving license information before renting a vehicle.",
+"RentCar:00007": "Your driving license expires on {ExpirationDate}, before the end of the rental period.",
+"RentCar:00008": "This rental is not active.",
+"RentCar:00009": "You can only access your own rentals.",
+"RentCar:00010": "The rental period has already ended. Please return the vehicle instead of extending.",
+"RentCar:00011": "The return date cannot be earlier than the rental start date.",
+"RentCar:00012": "This damage report has already been paid.",
+"RentCar:00013": "The payment amount ({Amount}) does not match the damage cost ({DamageCost}).",
+"RentCar:00014": "You can only access your own damage reports."
+  }
+}

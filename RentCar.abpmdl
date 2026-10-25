@@ -1,0 +1,114 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.LeptonXLiteTheme": {
+      "version": "5.7.0",
+      "isInstalled": true,
+      "creationTime": "10/24/2026 14:00:22 +00:00"
+    },
+    "Volo.Abp.Account": {
+      "version": "10.7.0",
+      "isInstalled": true,
+      "creationTime": "10/24/2026 14:00:22 +00:00"
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "10.7.0",
+      "isInstalled": true,
+      "creationTime": "10/24/2026 14:00:22 +00:00"
+    },
+    "Volo.Abp.Identity": {
+      "version": "10.7.0",
+      "isInstalled": true,
+      "creationTime": "10/24/2026 14:00:22 +00:00"
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "10.7.0",
+      "isInstalled": true,
+      "creationTime": "10/24/2026 14:00:22 +00:00"
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "10.7.0",
+      "isInstalled": true,
+      "creationTime": "10/24/2026 14:00:22 +00:00"
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "10.7.0",
+      "isInstalled": true,
+      "creationTime": "10/24/2026 14:00:22 +00:00"
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "10.7.0",
+      "isInstalled": true,
+      "creationTime": "10/24/2026 14:00:22 +00:00"
+    },
+    "Volo.Abp.BlobStoring.Database": {
+      "version": "10.7.0",
+      "isInstalled": true,
+      "creationTime": "10/24/2026 14:00:22 +00:00"
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "RentCar.Application": {
+      "path": "src/RentCar.Application/RentCar.Application.abppkg",
+      "folder": "src"
+    },
+    "RentCar.Application.Tests": {
+      "path": "test/RentCar.Application.Tests/RentCar.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "RentCar.Domain.Shared": {
+      "path": "src/RentCar.Domain.Shared/RentCar.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "RentCar.Application.Contracts": {
+      "path": "src/RentCar.Application.Contracts/RentCar.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "RentCar.HttpApi": {
+      "path": "src/RentCar.HttpApi/RentCar.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "RentCar.HttpApi.Client": {
+      "path": "src/RentCar.HttpApi.Client/RentCar.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "RentCar.EntityFrameworkCore.Tests": {
+      "path": "test/RentCar.EntityFrameworkCore.Tests/RentCar.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "RentCar.EntityFrameworkCore": {
+      "path": "src/RentCar.EntityFrameworkCore/RentCar.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "RentCar.TestBase": {
+      "path": "test/RentCar.TestBase/RentCar.TestBase.abppkg",
+      "folder": "test"
+    },
+    "RentCar.Domain.Tests": {
+      "path": "test/RentCar.Domain.Tests/RentCar.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "RentCar.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/RentCar.HttpApi.Client.ConsoleTestApp/RentCar.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "RentCar.DbMigrator": {
+      "path": "src/RentCar.DbMigrator/RentCar.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "RentCar.HttpApi.Host": {
+      "path": "src/RentCar.HttpApi.Host/RentCar.HttpApi.Host.abppkg",
+      "folder": "src"
+    },
+    "RentCar.Domain": {
+      "path": "src/RentCar.Domain/RentCar.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}
